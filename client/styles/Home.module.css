@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+.uploaded {
+  background-color: rgb(102, 214, 255);
+  color: #000;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: rgb(175, 174, 255) 0px 0px 20px 2px;
+
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  background-color: rgb(255, 102, 102);
+  color: #000;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: rgb(255, 174, 241) 0px 0px 20px 2px;
+
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+
+  margin-left: 1rem;
+}
